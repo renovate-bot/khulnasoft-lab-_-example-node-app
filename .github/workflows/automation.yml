@@ -1,8 +1,9 @@
+name: Test node with worklows
 on: push
 jobs:
   first-job:
-  runs-on: ubuntu-latest
-  container: node:12.18.4
-  steps:
-    - run: node --version
-    - run: npm --version
+    runs-on: ubuntu-latest
+    container: node:12.18.4
+    steps:
+      - run: node --version
+      - run: npm --version
