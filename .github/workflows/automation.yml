@@ -4,7 +4,7 @@ jobs:
   first-job:
     name: Build with Node
     runs-on: ubuntu-latest
-    container: node:12.22.12
+    container: node:23.6.1
     steps:
       - run: node --version
       - run: npm --version
